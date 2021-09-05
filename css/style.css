@@ -393,6 +393,26 @@
 
     }
 
+    /* #modal_img {
+        width: 65vw;
+
+    }
+
+    .modal {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0);
+        display: flex;
+    }
+
+     .modal-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       
+    }  */
+
     @media (max-width: 800px) {
         .intro-content, .grid {
             grid-template-columns: 1fr;
@@ -404,7 +424,7 @@
             max-height: 100%;
         }
 
-        .contact-form {
+        .contact-form { /* conjvertando valor de span formulario contato*/
             grid-column: revert;                 
         }
         
